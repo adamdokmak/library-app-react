@@ -35,9 +35,7 @@ function App() {
                 : item
         ))
         if (+quantity === 0) {
-            setTimeout(function () {
                 removeFromCart(book)
-            }, 0)
         }
     }
 

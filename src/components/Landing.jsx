@@ -1,4 +1,5 @@
 import landingImage from '../assets/Undraw_Books.svg'
+import {Link} from "react-router-dom";
 
 function Landing() {
     return (
@@ -8,9 +9,9 @@ function Landing() {
                     <div className="header__description">
                         <h1>Morocco's best book library</h1>
                         <h2>Find your dream book from our <span className="purple">Library</span></h2>
-                        <a href="#features">
+                        <Link to="#features">
                             <button className="btn">Browse Books</button>
-                        </a>
+                        </Link>
                     </div>
                     <figure className='header__img--wrapper'>
                         <img src={landingImage} alt=""/>

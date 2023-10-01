@@ -369,7 +369,6 @@ FEATURED
 .books {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -24px;
 }
 
 .book {
@@ -478,17 +477,25 @@ footer {
 
 .footer__link,
 .footer__copyright {
+  text-align: center;
   color: #fff;
 }
 
 .footer__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 20px 0 24px 0;
 }
 
 .footer__link {
-  padding: 0 8px;
+  text-align: center;
+  margin: 8px;
 }
-
+.btn__list {
+  margin-bottom: 8px;
+}
 /* 
 **
 

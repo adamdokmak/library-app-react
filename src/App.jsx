@@ -48,10 +48,16 @@ function App() {
                 <Routes>
                     <Route path='/' element={<Home/>}/>
                     <Route path='/books' element={<Books books={books}/>}/>
-                    <Route path='/book/:id' element={<BookInfo cart={cart} addtocart={addToCart} books={books}/>}/>
-                    <Route path='/cart'
-                           element={<Cart removefromcart={removeFromCart} changeQuantity={changeQuantity} cart={cart}
-                                          books={books}/>}/>
+                    <Route path='/book/:id' element={<BookInfo cart={cart}
+                                                               addtocart={addToCart}
+                                                               books={books}/>}
+                    />
+                    <Route path='/cart' element={<Cart
+                        removefromcart={removeFromCart}
+                        changeQuantity={changeQuantity}
+                        cart={cart}
+                        books={books}/>}
+                    />
                 </Routes>
                 <Footer/>
             </Router>

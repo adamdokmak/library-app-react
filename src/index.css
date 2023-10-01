@@ -618,6 +618,7 @@ select {
 }
 
 .book__selected--title--top {
+  color: black;
   margin-left: 10px;
   margin-bottom: 0;
 }

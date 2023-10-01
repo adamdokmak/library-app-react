@@ -5,7 +5,7 @@ function Highlight({icon, title, subtitle}) {
                 {icon}
             </div>
             <h3 className="highlight__subtitle">{title}</h3>
-            <p className="highlight_para">{subtitle}</p>
+            <p className="highlight__para">{subtitle}</p>
         </div>
     )
 }

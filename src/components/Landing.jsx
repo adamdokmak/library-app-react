@@ -7,11 +7,11 @@ function Landing() {
             <header>
                 <div className="header__container">
                     <div className="header__description">
-                        <h1>Morocco's best book library</h1>
+                        <h1>Fast and reliable experience</h1>
                         <h2>Find your dream book from our <span className="purple">Library</span></h2>
-                        <Link to="#features">
+                        <a href="#featured">
                             <button className="btn">Browse Books</button>
-                        </Link>
+                        </a>
                     </div>
                     <figure className='header__img--wrapper'>
                         <img src={landingImage} alt=""/>

@@ -12,8 +12,6 @@ function BookInfo({books, addtocart, cart}) {
         return cart.find(book => book.id === +id)
     }
 
-
-
     return (
         <div id="books__body">
             <main id="books__main">
@@ -23,7 +21,7 @@ function BookInfo({books, addtocart, cart}) {
                             <Link to='/books' className='book__link'>
                                 <FontAwesomeIcon icon='arrow-left'/>
                             </Link>
-                            <Link to='/books'>
+                            <Link to='/books' className='book__link'>
                                 <h2 className="book__selected--title--top">Books</h2>
                             </Link>
                         </div>
@@ -56,11 +54,11 @@ function BookInfo({books, addtocart, cart}) {
                                 {bookExistInCart() ? (
                                     <Link to='/cart' className="book__link">
                                         <button className='btn'>View Checkout
-                                            </button>
+                                        </button>
                                     </Link>
-                                    ) : (
-                                        <button className="btn" onClick={() => addtocart(book)}>Add to Cart</button>
-                                    )}
+                                ) : (
+                                    <button className="btn" onClick={() => addtocart(book)}>Add to Cart</button>
+                                )}
                             </div>
                         </div>
                     </div>

@@ -53,7 +53,7 @@ function Cart({cart, changeQuantity, removefromcart}) {
                                 <span>Total</span>
                                 <span>${total().toFixed(2)}</span>
                             </div>
-                            <button className="btn btn__checkout no-cursor" onClick={() => alert('nah')}>Proceed to
+                            <button className="btn btn__checkout no-cursor" onClick={() => alert('Have not implemented this feature yet...')}>Proceed to
                                 checkout
                             </button>
                         </div>}

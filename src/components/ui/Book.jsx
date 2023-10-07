@@ -12,13 +12,14 @@ function Book({book}) {
         const image = new Image()
         image.src = book.url
         image.onload = () => {
-            // setTimeout( () => {
-                mountedRef.current && setImg(image)
-            // }, 400)
+            setTimeout( () => {
+            mountedRef.current && setImg(image)
+            }, 400)
         }
         return () => {
-            mountedRef.current = false
+                mountedRef.current = false
         }
+
     })
 
     return (

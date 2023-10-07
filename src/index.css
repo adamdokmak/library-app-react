@@ -58,7 +58,7 @@ li {
 
 h1 {
   font-size: 56px;
-  color: #7342d6;
+  color: #61ABB5;
   margin-bottom: 24px;
   text-align: center;
 }
@@ -78,7 +78,7 @@ button:active {
 }
 
 .btn {
-  background-color: #7342d6;
+  background-color: #61ABB5;
   color: white;
   padding: 12px 24px;
   font-size: 20px;
@@ -87,7 +87,7 @@ button:active {
 }
 
 .purple {
-  color: #7342d6;
+  color: #61ABB5;
 }
 
 .logo {
@@ -109,7 +109,7 @@ button:active {
   font-size: 20px;
   font-weight: bold;
   padding: 8px;
-  color: #7342d6;
+  color: #61ABB5;
 }
 
 .nav__list {
@@ -124,7 +124,7 @@ button:active {
 }
 
 .nav__link--primary {
-  border: 2px solid #7342d6;
+  border: 2px solid #61ABB5;
   border-radius: 4px;
 }
 
@@ -136,7 +136,7 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #7342d6;
+  color: #61ABB5;
   font-size: 20px;
   position: relative;
   margin-left: 8px;
@@ -162,7 +162,7 @@ button:active {
   background-color: transparent;
   font-size: 32px;
   border: none;
-  color: #7342d6;
+  color: #61ABB5;
   display: none;
 }
 
@@ -225,7 +225,7 @@ LANDING
 */
 
 #landing {
-  background-color: rgba(115, 66, 214, 0.1)
+  background-color: rgba(97, 171, 181, 0.1)
 }
 
 header {
@@ -243,6 +243,7 @@ header {
 }
 
 .header__description {
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -250,13 +251,7 @@ header {
 
 .header__img--wrapper {
   padding: 20px;
-
-  /* Added this after the tutorial to 
-  show it over the wave on larger screens */
   z-index: 50;
-  
-  /* Added this after the tutorial to 
-  make landing page responsive on laptops */
   max-height: 50vh;
 }
 
@@ -337,8 +332,8 @@ HIGHLIGHTS
 }
 
 .highlight__img {
-  border: 2px solid #7342d65d;
-  color: #7342d6;
+  border: 2px solid #61ABB5;
+  color: #61ABB5;
   width: 100px;
   height: 100px;
   display: flex;
@@ -363,7 +358,7 @@ FEATURED
 
 #featured {
   padding-top: 8vw;
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: rgba(97, 171, 181, 0.1);
 }
 
 .books {
@@ -453,7 +448,7 @@ EXPLORE
 */
 
 #explore {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: rgba(97, 171, 181, 0.1);
 }
 
 /* 
@@ -496,16 +491,14 @@ footer {
 .btn__list {
   margin-bottom: 8px;
 }
-/* 
-**
+/*
 
 BOOKS PAGE
 
-**
 */
 
 #books__body {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: rgba(97, 171, 181, 0.1);
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -547,7 +540,7 @@ select {
   justify-content: center;
   padding-top: 60px;
   font-size: 60px;
-  color: #7342d6;
+  color: #61ABB5;
 }
 
 .fa-spinner {
@@ -656,7 +649,7 @@ select {
 */
 
 .cart__header {
-  background-color: #7342d6;
+  background-color: #61ABB5;
   margin: 0 24px;
   padding: 8px 16px;
   color: white;
@@ -749,7 +742,7 @@ select {
 }
 
 .total__sub-total {
-  border-top: 2px solid #7342d6;
+  border-top: 2px solid #61ABB5;
   padding-top: 24px;
 }
 

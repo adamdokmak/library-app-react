@@ -15,7 +15,7 @@ function Highlights() {
                                    subtitle='Get access to the book you purchased online instantly.'/>
                         <Highlight icon={<FontAwesomeIcon icon={'book-open'}/>}
                                    title='10,000+ Books'
-                                   subtitle='Library has books in all your favourite categories.'/>
+                                   subtitle='Library has books in all your favorite categories.'/>
                         <Highlight icon={<FontAwesomeIcon icon={'tags'}/>}
                                    title='Affordable'
                                    subtitle='Get your hands on popular books for as little as $10.'/>

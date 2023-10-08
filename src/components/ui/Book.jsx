@@ -5,6 +5,12 @@ import {Link} from "react-router-dom";
 
 function Book({book}) {
     const [img, setImg] = useState()
+    const handleScroll = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant'
+        });
+    }
 
     const mountedRef = useRef(true)
 
@@ -12,15 +18,16 @@ function Book({book}) {
         const image = new Image()
         image.src = book.url
         image.onload = () => {
-            setTimeout( () => {
-            mountedRef.current && setImg(image)
+            setTimeout(() => {
+                mountedRef.current && setImg(image)
             }, 400)
         }
         return () => {
-                mountedRef.current = false
+            mountedRef.current = false
         }
 
     })
+
 
     return (
         <div className="book">
@@ -34,7 +41,10 @@ function Book({book}) {
                 ) :
                 (
                     <>
-                        <Link to={`/book/${book.id}`}>
+                        <Link
+                            to={`/book/${book.id}`}
+                            onClick={handleScroll}
+                        >
                             <figure className="book__img--wrapper">
                                 <img className="book__img" src={img.src} alt=""/>
                             </figure>
